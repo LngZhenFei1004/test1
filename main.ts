@@ -1,8 +1,10 @@
 basic.forever(function () {
     basic.showIcon(IconNames.Heart)
     led.setBrightness(255)
+    basic.pause(1000)
     basic.showIcon(IconNames.SmallHeart)
-    led.setBrightness(100)
+    led.setBrightness(255)
+    basic.pause(1000)
     basic.showLeds(`
         . # # # #
         . # . . .
@@ -11,7 +13,7 @@ basic.forever(function () {
         . # . . .
         `)
     led.setBrightness(255)
-    basic.pause(500)
+    basic.pause(10)
     basic.showLeds(`
         . # # # #
         . # . . .
@@ -20,7 +22,7 @@ basic.forever(function () {
         . # # # #
         `)
     led.setBrightness(255)
-    basic.pause(500)
+    basic.pause(10)
     basic.showLeds(`
         . # # # .
         . . # . .
@@ -29,7 +31,10 @@ basic.forever(function () {
         . # # # .
         `)
     led.setBrightness(255)
-    basic.pause(500)
+    basic.pause(10)
+    led.setBrightness(255)
     basic.showString("Fei")
-    basic.pause(2000)
+    led.setBrightness(255)
+    basic.showString("Fei")
+    led.setBrightness(155)
 })
