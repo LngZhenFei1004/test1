@@ -1,10 +1,11 @@
 {
-    "name": "test.1",
+    "name": "test.1 - 複製",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "gatorEnvironment": "github:sparkfun/pxt-gator-environment#v1.1.2"
     },
     "files": [
         "main.blocks",
